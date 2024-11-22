@@ -18,17 +18,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #1a1a1a;  position: sticky;
+  background-color: rgba(169, 153, 153, 0.9); /* Semi-transparent */
+  position: sticky;
   top: 0;
   z-index: 10;
-  background-color: rgba(26, 26, 26, 0.9);
-
 }
 
 header .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #ff4f4f;
+  color: white;
 }
 
 header .nav-links {
@@ -47,7 +46,25 @@ header .nav-links a {
 }
 
 header .nav-links a:hover {
-  color: #ff4f4f;
+  color: black;
+}
+
+/* "Join" Button Styling */
+header .nav-links .join-btn a {
+  padding: 10px 20px;
+  border: 2px solid white; /* Red border */
+  border-radius: 50px; /* Creates a pill shape */
+  background-color: ;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+header .nav-links .join-btn a:hover {
+  background-color: black;
+  color: #ffffff; /* Text turns white */
+  transform: scale(1.1); /* Slight zoom effect */
 }
 
 /* Hero Section */
@@ -91,5 +108,6 @@ header .nav-links a:hover {
 /* Main Content Styling */
 main {
   padding: 50px;
-  background-color: #1a1a1a;
+  background-color: black;
 }
+
