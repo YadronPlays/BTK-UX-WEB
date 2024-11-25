@@ -125,7 +125,7 @@ header {
 /* Hero Section*/
 .hero {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/homescreen2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Gym\ \ 2jpg.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -878,10 +878,10 @@ header {
   margin-bottom: 20px;
 }
 
-.about-cta p {
-  color: #cccccc;
-  margin-bottom: 30px;
-  font-size: 1.2rem;
+.about-cta {
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(255, 79, 79, 0.3); /* Increased opacity from 0.1 to 0.3 */
 }
 
 /* Media Queries */
