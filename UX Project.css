@@ -20,10 +20,6 @@ body {
 
 
 
-
-
-
-
 /* Header Styling */
 header {
   display: flex;
@@ -373,7 +369,7 @@ header {
 }
 
 .signup-container {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .signup-container .cta-button {
@@ -816,18 +812,20 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .feature-box {
   text-align: center;
   padding: 40px 30px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow to transition */
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .feature-box:hover {
   transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(255, 79, 79, 0.2); /* Added box-shadow effect */
 }
+
 
 .feature-box i {
   font-size: 2.5rem;
@@ -851,7 +849,16 @@ header {
   margin: 0 auto;
   padding: 60px 20px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
+.about-story:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(255, 79, 79, 0.2);
+}
+
 
 .about-story h2 {
   font-size: 2.5rem;
@@ -883,6 +890,12 @@ header {
   padding: 80px 20px;
   background: rgba(255, 79, 79, 0.3); /* Increased opacity from 0.1 to 0.3 */
 }
+
+.about-cta .cta-button {
+  margin-top: 40px; /* Added margin above the button */
+  display: inline-block;
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {
