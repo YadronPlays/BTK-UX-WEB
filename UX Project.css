@@ -198,14 +198,14 @@ header {
 }
 
 .cta-button.secondary {
-  background-color: transparent;
+  background-color: #ff4f4f;
   color: white;
   border: 2px solid white;
 }
 
 .cta-button.primary:hover {
-  background-color: #e41212;
-  border-color: #e41212;
+  background-color: transparent;
+  border-color: #ff4f4f;
   transform: translateY(-3px);
 }
 
@@ -475,7 +475,7 @@ header {
 }
 
 .plan-button:hover {
-  background-color: #ff3333;
+  background-color: #7c0a0a;
 }
 
 /* Member Benefits Section */
@@ -1152,9 +1152,10 @@ footer {
 }
 
 .cta-button.primary:hover {
-  background-color: #e41212;
-  border-color: #e41212;
+  background-color: transparent;
+  border-color: #ff4f4f;
   transform: translateY(-3px);
+  color: #ff4f4f;
 }
 
 .cta-button.secondary:hover {
@@ -1207,5 +1208,9 @@ footer {
 main {
   padding: 50px;
   background-color: black;
+}
+
+.text-center {
+  text-align: center;
 }
 
