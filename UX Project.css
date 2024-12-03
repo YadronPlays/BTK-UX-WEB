@@ -1214,3 +1214,119 @@ main {
   text-align: center;
 }
 
+/* Mobile Navigation Updates */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide default nav */
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+
+  /* Adjust header padding for mobile */
+  header {
+    padding: 15px 20px;
+  }
+}
+
+/* Hero Section Mobile Updates */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    padding: 0 15px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-features {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta-button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Features Section Mobile Updates */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .feature-card {
+    margin: 10px;
+  }
+}
+
+/* Form Improvements for Mobile */
+@media (max-width: 768px) {
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 15px; /* Larger touch targets */
+  }
+
+  .submit-btn {
+    padding: 15px;
+    width: 100%;
+  }
+}
+
+/* General Mobile Improvements */
+@media (max-width: 768px) {
+  /* Add touch-friendly padding */
+  .exercise-btn,
+  .trainer-contact,
+  .cta-button {
+    padding: 15px 30px;
+    min-height: 44px; /* Minimum touch target size */
+  }
+
+  /* Improve readability */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Adjust spacing */
+  .section-title {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
