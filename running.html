@@ -5,28 +5,133 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Run Club - BTK GYM</title>
   <link rel="stylesheet" href="UX Project.css">
+  <style>
+    /* Layout for video and text side-by-side */
+    .video-wrapper {
+      display: flex; /* Align video and text horizontally */
+      margin: 20px;
+    }
+
+    .video-wrapper video {
+      display: block;
+      width: 400px;
+    }
+
+    .video-text {
+      max-width: 800px;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-left: 20px;
+    }
+
+    /* Timetable Styling */
+    .timetable {
+      margin-top: 40px;
+      padding: 20px;
+      border: 1px solid #444;
+      border-radius: 8px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .timetable h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #f0f0f0;
+    }
+
+    .timetable table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .timetable th, .timetable td {
+      padding: 10px;
+      border: 1px solid #444;
+      text-align: center;
+    }
+
+    .timetable th {
+      background-color: #222;
+      color: #fff;
+    }
+
+    .timetable td {
+      background-color: #111;
+      color: #eee;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <div class="logo-container">
-    <a href="index.html" class="logo">
-      <img src="images/logo.png" alt="BTK Gym Logo">
-    </a>
+  <header>
+    <div class="logo-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="BTK Gym Logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="trainer.html">Trainers</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="exercise.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="join-btn"><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Video and Text Side by Side -->
+  <div class="video-wrapper">
+    <video autoplay muted loop controls>
+      <source src="videos/running.mp4" type="video/mp4">
+      <source src="videos/running.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-text">
+      <h2>Join the Run Club</h2>
+      <p>At BTK Gym's Run Club, we focus on building endurance, improving speed, and achieving personal running goals. Whether you're just starting or aiming for a marathon, our coaches will guide you every step of the way. Get ready to lace up your shoes and hit the track!</p>
+    </div>
   </div>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="trainer.html">Trainers</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="exercise.html">Classes</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li class="join-btn"><a href="join.html">Join</a></li>
-    </ul>
-  </nav>
-</header>
-<video width="400" controls>
-    <source src="videos/running.mp4" type="video/mp4">
-    <source src="videos/running.mp4" type="video/ogg">
-  
-  </video>
+
+  <!-- Timetable Section Under the Text -->
+  <div class="timetable">
+    <h2>Run Club Timetable</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Session</th>
+          <th>Trainer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>6:00 PM - 7:00 PM</td>
+          <td>Endurance Run</td>
+          <td>Coach Sam</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>6:30 PM - 7:30 PM</td>
+          <td>Speed Training</td>
+          <td>Coach Jane</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>5:30 PM - 6:30 PM</td>
+          <td>Interval Training</td>
+          <td>Coach Mark</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>9:00 AM - 10:30 AM</td>
+          <td>Long Distance Run</td>
+          <td>Coach Sam</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>

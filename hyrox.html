@@ -5,13 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hyrox - BTK GYM</title>
   <link rel="stylesheet" href="UX Project.css">
+  <style>
+  
+    .video-wrapper {
+      position: relative;
+      margin: 20px;
+    }
+
+    .video-text {
+      position: absolute;
+      top: 0;
+      left: 420px; 
+      max-width: 800px; 
+      font-size: 1.2rem; 
+      line-height: 1.8; 
+    }
+
+    video {
+      display: block;
+    }
+
+
+    .timetable {
+      margin-top: 20px; 
+      padding: 20px;
+      border: 1px solid #444;
+      border-radius: 8px;
+      background-color: #000; 
+      color: #fff; 
+    }
+
+    .timetable h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #f0f0f0; 
+    }
+
+    .timetable table {
+      width: 120%;
+      border-collapse: collapse;
+    }
+
+    .timetable th, .timetable td {
+      padding: 10px;
+      border: 1px solid #444; 
+      text-align: center;
+    }
+
+    .timetable th {
+      background-color: #222; 
+      color: #fff;
+    }
+
+    .timetable td {
+      background-color: #111; 
+      color: #eee; 
+    }
+  </style>
 </head>
 <header>
   <div class="logo-container">
-  <a href="index.html" class="logo">
-    <img src="images/logo.png" alt="BTK Gym Logo">
-  </a>
-</div>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="BTK Gym Logo">
+    </a>
+  </div>
   <nav>
     <ul class="nav-links">
       <li><a href="trainer.html">Trainers</a></li>
@@ -23,11 +80,57 @@
   </nav>
 </header>
 <body>
-</header>
-<video width="400" controls>
-  <source src="videos/hyrox.mp4" type="video/mp4">
-  <source src="videos/hyrox.mp4" type="video/ogg">
-
-</video>
+  <div class="video-wrapper">
+    <video width="400" autoplay muted loop controls>
+      <source src="videos/hyrox.mp4" type="video/mp4">
+      <source src="videos/hyrox.mp4" type="video/ogg">
+  
+    </video>
+    <div class="video-text">
+      <h2>Hyrox Train </h2>
+      <p>Enhance your functional fitness to become a top hybrid athlete and prepare for a Hyrox fitness race event. Focus on refining your exercise techniques to maximize the effectiveness of every repetition. Join us for up to 12 weeks of structured programming designed to get you race-ready</p>
+      
+      
+      <div class="timetable">
+        <h2> Hyrox Classes </h2>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Time</th>
+              <th>Session</th>
+              <th>Trainer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>6:00 PM - 7:00 PM</td>
+              <td>Endurance Training</td>
+              <td>Coach Kelvin </td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>6:30 PM - 7:30 PM</td>
+              <td>Strength and Conditioning</td>
+              <td>Coach Bibi </td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>5:00 PM - 6:00 PM</td>
+              <td>Hyrox Skills</td>
+              <td>Coach Tobe </td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>10:00 AM - 11:30 AM</td>
+              <td>Full Hyrox Simulation</td>
+              <td>Coach Kelvin</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
