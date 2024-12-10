@@ -5,86 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hyrox - BTK GYM</title>
   <link rel="stylesheet" href="UX Project.css">
-  <style>
-  
-    .video-wrapper {
-      position: relative;
-      margin: 20px;
-    }
-
-    .video-text {
-      position: absolute;
-      top: 0;
-      left: 420px; 
-      max-width: 800px; 
-      font-size: 1.2rem; 
-      line-height: 1.8; 
-    }
-
-    video {
-      display: block;
-    }
-
-
-    .timetable {
-      margin-top: 20px; 
-      padding: 20px;
-      border: 1px solid #444;
-      border-radius: 8px;
-      background-color: #000; 
-      color: #fff; 
-    }
-
-    .timetable h2 {
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-      color: #f0f0f0; 
-    }
-
-    .timetable table {
-      width: 120%;
-      border-collapse: collapse;
-    }
-
-    .timetable th, .timetable td {
-      padding: 10px;
-      border: 1px solid #444; 
-      text-align: center;
-    }
-
-    .timetable th {
-      background-color: #222; 
-      color: #fff;
-    }
-
-    .timetable td {
-      background-color: #111; 
-      color: #eee; 
-    }
-  </style>
 </head>
-<header>
-  <div class="logo-container">
-    <a href="index.html" class="logo">
-      <img src="images/logo.png" alt="BTK Gym Logo">
-    </a>
-  </div>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="trainer.html">Trainers</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="exercise.html">Classes</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li class="join-btn"><a href="join.html">Join</a></li>
-    </ul>
-  </nav>
-</header>
+
 <body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="BTK Gym Logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="trainer.html">Trainers</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="exercise.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="join-btn"><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <div class="video-wrapper">
     <video width="400" autoplay muted loop controls>
       <source src="videos/hyrox.mp4" type="video/mp4">
       <source src="videos/hyrox.mp4" type="video/ogg">
-  
     </video>
     <div class="video-text">
       <h2>Hyrox Train </h2>
@@ -132,5 +76,27 @@
       </div>
     </div>
   </div>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3>BTK GYM</h3>
+        <p>Open 24/7</p>
+        <p>123 Gym Street, London, UK</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="footer-map">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.8774097558557!2d-0.037916684135612965!3d51.47431397962991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603438c65b0d5%3A0x790260fd148210d1!2sGoldsmiths%2C%20University%20of%20London!5e0!3m2!1sen!2suk!4v1648136282227!5m2!1sen!2suk"
+        width="300"
+        height="200"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-no-downgrade">
+      </iframe>
+  
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
