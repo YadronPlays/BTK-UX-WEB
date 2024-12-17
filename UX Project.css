@@ -1330,3 +1330,58 @@ main {
   }
 }
 
+
+.video-wrapper {
+  display: flex; /* Align video and text horizontally */
+  margin: 20px;
+}
+
+.video-wrapper video {
+  display: block;
+  width: 400px;
+}
+
+.video-text {
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-left: 20px;
+}
+
+/* Timetable Styling */
+.timetable {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+}
+
+.timetable h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.timetable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th, .timetable td {
+  padding: 10px;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #222;
+  color: #fff;
+}
+
+.timetable td {
+  background-color: #111;
+  color: #eee;
+}
+

@@ -7,26 +7,96 @@
   <link rel="stylesheet" href="UX Project.css">
 </head>
 <body>
-<header>
-  <div class="logo-container">
-    <a href="index.html" class="logo">
-      <img src="images/logo.png" alt="BTK Gym Logo">
-    </a>
+  <header>
+    <div class="logo-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="BTK Gym Logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="trainer.html">Trainers</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="exercise.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="join-btn"><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Video and Text Side by Side -->
+  <div class="video-wrapper">
+    <video autoplay muted loop controls>
+      <source src="videos/running.mp4" type="video/mp4">
+      <source src="videos/running.mp4" type="video/ogg">
+    </video>
+    <div class="video-text">
+      <h2>Join the Run Club</h2>
+      <p>At BTK Gym's Run Club, we focus on building endurance, improving speed, and achieving personal running goals. Whether you're just starting or aiming for a marathon, our coaches will guide you every step of the way. Get ready to lace up your shoes and hit the track!</p>
+
+            <!-- Timetable Section Under the Text -->
+      <div class="timetable">
+        <h2>Run Club Timetable</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Session</th>
+              <th>Trainer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>6:00 PM - 7:00 PM</td>
+              <td>Endurance Run</td>
+              <td>Coach Sam</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>6:30 PM - 7:30 PM</td>
+              <td>Speed Training</td>
+              <td>Coach Jane</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>5:30 PM - 6:30 PM</td>
+              <td>Interval Training</td>
+              <td>Coach Mark</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>9:00 AM - 10:30 AM</td>
+              <td>Long Distance Run</td>
+              <td>Coach Sam</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="trainer.html">Trainers</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="exercise.html">Classes</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li class="join-btn"><a href="join.html">Join</a></li>
-    </ul>
-  </nav>
-</header>
-<video width="400" controls>
-    <source src="videos/running.mp4" type="video/mp4">
-    <source src="videos/running.mp4" type="video/ogg">
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3>BTK GYM</h3>
+        <p>Open 24/7</p>
+        <p>123 Gym Street, London, UK</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="footer-map">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.8774097558557!2d-0.037916684135612965!3d51.47431397962991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603438c65b0d5%3A0x790260fd148210d1!2sGoldsmiths%2C%20University%20of%20London!5e0!3m2!1sen!2suk!4v1648136282227!5m2!1sen!2suk"
+        width="300"
+        height="200"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-no-downgrade">
+      </iframe>
   
-  </video>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
