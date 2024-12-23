@@ -115,6 +115,32 @@ header {
   }
 }
 
+/* Special styling for Join button */
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.NEXT-btn {
+  padding: 10px 25px;
+  border: 2px solid #ff4f4f;
+  border-radius: 50px;
+  background-color: #ff4f4f;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.NEXT-btn:hover {
+  background-color: transparent;
+  color: #ff4f4f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 79, 79, 0.3);
+}
+
 
 /* Hero Section*/
 .hero {
