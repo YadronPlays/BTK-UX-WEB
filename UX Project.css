@@ -115,6 +115,32 @@ header {
   }
 }
 
+/* Special styling for Join button */
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.NEXT-btn {
+  padding: 10px 25px;
+  border: 2px solid #ff4f4f;
+  border-radius: 50px;
+  background-color: #ff4f4f;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.NEXT-btn:hover {
+  background-color: transparent;
+  color: #ff4f4f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 79, 79, 0.3);
+}
+
 
 /* Hero Section*/
 .hero {
@@ -1328,5 +1354,60 @@ main {
     max-width: 100%;
     height: auto;
   }
+}
+
+
+.video-wrapper {
+  display: flex; /* Align video and text horizontally */
+  margin: 20px;
+}
+
+.video-wrapper video {
+  display: block;
+  width: 400px;
+}
+
+.video-text {
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-left: 20px;
+}
+
+/* Timetable Styling */
+.timetable {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+}
+
+.timetable h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.timetable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th, .timetable td {
+  padding: 10px;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #222;
+  color: #fff;
+}
+
+.timetable td {
+  background-color: #111;
+  color: #eee;
 }
 
