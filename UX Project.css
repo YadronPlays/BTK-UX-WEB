@@ -1411,3 +1411,330 @@ main {
   color: #eee;
 }
 
+
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+.form-container p {
+  font-size: 1.2rem;
+  color: #333333;
+  margin: 10px 0;
+}
+
+/* Highlighting the headings */
+.form-container p:first-of-type {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff5733;
+}
+
+/* Additional spacing for subsections */
+.form-container p:nth-of-type(2) {
+  font-size: 1.3rem;
+  color: #555555;
+  margin-bottom: 20px;
+}
+.total-amount {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #218838;
+}
+
+
+
+.thank-you-container {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin:auto;
+}
+.thank-you-container h1 {
+  font-size: 2rem;
+  color: #28a745;
+}
+.thank-you-container p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #333;
+}
+.thank-you-container .details {
+  margin: 20px 0;
+  font-size: 0.9rem;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+.thank-you-container a {
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid #ff4f4f;
+  padding: 10px 20px;
+  background: #ff4f4f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.thank-you-container a:hover {
+  background-color: transparent;
+  color: #ff4f4f;
+  
+  box-shadow: 0 4px 15px rgba(255, 79, 79, 0.3);
+  border-color:#ff4f4f;
+
+}
+
+
+
+
+/* Layout for trainer section */
+.trainer-section {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the media section (images and video) */
+.trainer-media {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.trainer-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.trainer-video video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 400px;
+}
+
+/* Text and trainer details */
+.bitrainer-details {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bitrainer-details h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.bitrainer-details h2, .bitrainer-details h3 {
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.bitrainer-details p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Training Philosophy Section */
+.training-philosophy {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+.training-philosophy h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.training-philosophy p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Training Methods Section */
+.training-methods {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+.training-methods h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.training-methods .weight-training, .training-methods .endurance-training {
+  margin-bottom: 25px;
+}
+
+.training-methods h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.training-methods p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.training-methods ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #000;
+}
+
+.training-methods ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.bibijoin-btn-container{
+ margin-left: 45%; 
+ margin-right: 45%;
+ display: flex;
+ 
+}
+
+
+/* Styling the Join Button */
+.bibijoinbtn {
+  padding: 30px 75px;
+  border: 2px solid #ff4f4f;
+  border-radius: 50px;
+  background-color: #ff4f4f;
+  color: white;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* Removes underline */
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.bibijoinbtn:hover {
+  background-color: transparent;
+  color: #ff4f4f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 79, 79, 0.3);
+}
+
+.tobejoin-btn-container{
+  margin-left: 45%; 
+  margin-right: 45%;
+  display: flex;
+  
+ }
+ 
+ 
+ /* Styling the Join Button */
+ .tobejoinbtn {
+   padding: 30px 75px;
+   border: 2px solid #ff4f4f;
+   border-radius: 50px;
+   background-color: #ff4f4f;
+   color: white;
+   transition: all 0.3s ease;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none; /* Removes underline */
+   font-size: 25px;
+   margin-top: 25px;
+ }
+ 
+ .tobejoinbtn:hover {
+   background-color: transparent;
+   color: #ff4f4f;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 15px rgba(255, 79, 79, 0.3);
+ }
+ 
+
+
+
+
+
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .trainer-image {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .trainer-image img,
+  .trainer-image video {
+      width: 100%;
+      max-width: 300px;
+  }
+
+  .trainer-details {
+      padding: 10px;
+  }
+
+  .training-philosophy, .training-methods {
+      padding: 15px;
+  }
+}
+
+
+
