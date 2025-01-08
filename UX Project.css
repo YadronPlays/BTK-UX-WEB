@@ -1623,9 +1623,7 @@ button:hover {
   margin-bottom: 15px;
 }
 
-.training-methods .weight-training, .training-methods .endurance-training .{
-  margin-bottom: 25px;
-}
+
 
 .training-methods h3 {
   font-size: 1.8em;
@@ -1734,6 +1732,37 @@ button:hover {
  }
  
  .kelvinjoinbtn:hover {
+   background-color: transparent;
+   color: #ff4f4f;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 15px rgba(255, 79, 79, 0.3);
+ }
+
+ .classjoin-btn-container{
+  margin-left: 45%; 
+  margin-right: 45%;
+  display: flex;
+  margin-bottom: 20px;
+  
+ }
+ 
+ 
+ /* Styling the Join Button */
+ .classesjoinbtn {
+   padding: 30px 75px;
+   border: 2px solid #ff4f4f;
+   border-radius: 50px;
+   background-color: #ff4f4f;
+   color: white;
+   transition: all 0.3s ease;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none; /* Removes underline */
+   font-size: 25px;
+   margin-top: 25px;
+ }
+ 
+ .classesjoinbtn:hover {
    background-color: transparent;
    color: #ff4f4f;
    transform: translateY(-2px);
