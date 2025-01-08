@@ -1411,3 +1411,44 @@ main {
   color: #eee;
 }
 
+.trainer-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.trainer-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trainer-info {
+  flex: 1;
+}
+
+.trainer-info h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.trainer-info p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.trainer-info strong {
+  color: #000;
+}
+
